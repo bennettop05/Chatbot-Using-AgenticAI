@@ -1,0 +1,2 @@
+This is a test file for the file_reader_tool.
+You can change the content and ask the agent to read it.
