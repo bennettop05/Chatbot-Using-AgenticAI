@@ -47,32 +47,17 @@ Edit
 git clone https://github.com/your-username/agentic_ai.git
 cd agentic_ai
 2. Create and activate a virtual environment
-bash
-Copy
-Edit
 python -m venv .venv
 .venv\Scripts\activate   # Windows
 source .venv/bin/activate  # macOS/Linux
 3. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 4. Add your API keys to .env:
-ini
-Copy
-Edit
 HUGGINGFACEHUB_API_TOKEN=your_hf_token
 TAVILY_API_KEY=your_tavily_token
 💻 Run the Chatbot (CLI)
-bash
-Copy
-Edit
 python app.py
 🌐 Run the Streamlit App
-bash
-Copy
-Edit
 streamlit run ui_streamlit.py
 Then open the browser URL shown to chat with your AI agent.
 
